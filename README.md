@@ -13,11 +13,9 @@ The project is designed to address the following research requirements:
 ```text
 prosthetics-autoencoder-eval/
 ├── data/               # Raw sensor data and processed feature sets
-├── conf/               # Hydra-based configuration files for hyperparameters
+├── conf/               # Configuration files for hyperparameters
 ├── src/                # Core implementation
 │   ├── models/         # Implementation of autoencoder architectures
-│   ├── pipeline/       # Training, validation, and evaluation routines
 │   └── utils/          # Preprocessing and diagnostic utilities
-├── notebooks/          # Exploratory analysis and statistical validation
-├── tests/              # Unit tests for data pipeline and model shapes
 └── pyproject.toml      # Dependency management and project metadata
+```
